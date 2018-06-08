@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    width: 100%;
+    height: 50px;
+    background-color: #4d4d4d;
+  }
+ 
+  main {
+    background-color: #737373;
+    width: 100%;
+    height: 100vh;
+    
+  }
+
+  tr {
+    background-color: #333333;
+  }
+
+  nav {
+    height: 100%;
+    display: flex;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 30px;;
+    margin: 0;
+    margin-top: 50px;
+  }  
+  nav ul {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  nav ul li {
+    height: 100%;
+  }
+  nav ul li:hover {
+    background-color: #999999;
+  }
+  nav ul li a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  nav ul li:hover a {
+    color: white;
+  }
+  
+  .main-content {
+    width: 100%;
+    background-color: #737373;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-no-style {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .base-table tr td {
+    border: 2px solid #262626;
+    line-height: 50px;
+  }
+  .td-table {
+    background-color: #262626;
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+  .second-tr td:first-of-type {
+    background-color: #999999;
+  }
+  .second-tr td:nth-of-type(2) {
+    background-color: #666666;
+  }
+  .second-tr td:nth-of-type(3) {
+    background-color: #999999;
+  }
+
+  .second-tr td:nth-of-type(4) {
+    background-color: #666666;
+
+  }
+ 
+  .second-tr td:last-of-type {
+    background-color: #999999;
+    display: flex;
+    justify-content: center;
+  }
